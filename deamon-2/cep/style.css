@@ -1,0 +1,57 @@
+@font-face {
+    
+    font-family: fira-code;
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/FiraCode-Regular.ttf');
+}
+.b {
+
+    border: 1px solid white;
+    color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 12px;
+    margin-bottom: -290px;
+    transition: ease-in-out 90ms;
+}
+a {
+    margin: 61px;
+}
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    height: 3rem;
+    width: 11rem;
+    margin: 1rem;
+    transition: ease-in-out 80ms;
+}input:hover{ color: green; border-color: green; transition: ease-in-out 120ms; }
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 12px;
+    height: 3rem;
+    width: 6rem;
+    margin: 1rem;
+    transition: ease-in-out 80ms;
+}button:hover{ color: green; border-color: green; transition: ease-in-out 120ms; }
+
+body {
+
+    margin: 4rem auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    background-color: black;
+    font-family: fira-code;
+    color: white;
+
+}
